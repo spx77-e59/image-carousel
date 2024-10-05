@@ -1,8 +1,14 @@
 {
-  "name": "js-template",
-  "version": "1.0.0",
+  "name": "@spx77-e59/image-carousel",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main.js",
+  "files": [
+    "dist",
+    "src/icons",
+    "!*.map",
+    "!dist/index.html"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.js",
@@ -10,7 +16,7 @@
     "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
-  "author": "",
+  "author": "spx77-e59",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.11.1",
